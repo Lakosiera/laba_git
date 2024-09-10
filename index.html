@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laba6</title>
+  </head>
+  <script src="render.js"></script>
+  <script src="main.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body,
+    html {
+      background-color: black;
+      height: 100%;
+    }
+    /* canvas { */
+      /* border: 1px solid red; */
+    /* } */
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sky {
+        background: linear-gradient(#b1eefe, #24c0e5, #1c9bd2);
+    }
+    pre {
+    white-space: pre-wrap;  
+    color: bisque;
+    }
+  </style>
+  <body class="box">
+
+    <div class="">
+        <canvas id="myCanvas" class="sky" width="640" height="480"></canvas>
+        <pre>
+    Тучи, дождь. 
+    Анимация - движение туч, проливной дождь. 
+    Анимация - нажатие на центр холста активирует движение туч и выпадение осадков, 
+    двойной щелчок останавливает анимацию.  
+    (Разрешается взять зимнюю тему: тучи и снег).
+        </pre>
+    </div>
+
+    
+  </body>
+</html>
